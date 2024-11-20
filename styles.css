@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.gameBoard{
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 600px;
+    height: 600px;
+    border: solid red;
+}
+.field{
+    border: solid red;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 150px;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: space-evenly;
+}
+player{
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    align-items: center;
+}
+
+form{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button{
+    display: flex;
+    width:200px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0px;
+}

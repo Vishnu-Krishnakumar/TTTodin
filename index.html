@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class ="gameBoard">
+            <div class = "field" id = "0"></div>
+            <div class = "field" id = "1"></div>
+            <div class = "field" id = "2"></div>
+            <div class = "field" id = "3"></div>
+            <div class = "field" id = "4"></div>
+            <div class = "field" id = "5"></div>
+            <div class = "field" id = "6"></div>
+            <div class = "field" id = "7"></div>
+            <div class = "field" id = "8"></div>
+        </div>
+        <div class ="initializer">
+
+            <div class = "scoreBoard">
+                <player id = "one">
+                    <name class ="p1"></name>
+                    <score id = "1"></score>
+                </player>
+                <player id = "two">
+                    <name class="p2"></name>
+                    <score id ="2"></score>
+                </player>
+            </div>
+            <div class = "input">
+                <form id="players">
+                    <div>
+                        First Player: <input type="text" name ="fplayer" value=""></div>
+                    <div> Second Player: <input type="text" name="splayer" value=""></div>
+                </form>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
